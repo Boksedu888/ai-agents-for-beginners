@@ -1,0 +1,60 @@
+{
+  "fedex": {
+    "name": "FedEx",
+    "base_rates": {
+      "10": 28.5,
+      "20": 41.0,
+      "30": 53.0,
+      "40": 64.5,
+      "50": 76.0,
+      "60": 88.0,
+      "70": 102.0,
+      "80": 115.5,
+      "90": 129.5,
+      "100": 145.0
+    },
+    "address_surcharge": {
+      "residential": 5.15,
+      "commercial": 0.0
+    },
+    "fuel_surcharge": 0.15,
+    "surcharges": {
+      "ahs_length": 16.0,
+      "ahs_overweight": 27.5,
+      "ahs_irregular": 18.0,
+      "oversize_residential": 120.0,
+      "oversize_commercial": 110.0,
+      "overlimit": 200.0,
+      "remote_area": 14.5
+    }
+  },
+  "ups": {
+    "name": "UPS",
+    "base_rates": {
+      "10": 27.5,
+      "20": 40.0,
+      "30": 51.5,
+      "40": 63.0,
+      "50": 74.0,
+      "60": 86.0,
+      "70": 98.0,
+      "80": 112.0,
+      "90": 125.0,
+      "100": 139.0
+    },
+    "address_surcharge": {
+      "residential": 4.95,
+      "commercial": 0.0
+    },
+    "fuel_surcharge": 0.14,
+    "surcharges": {
+      "ahs_length": 15.5,
+      "ahs_overweight": 26.0,
+      "ahs_irregular": 16.5,
+      "oversize_residential": 115.0,
+      "oversize_commercial": 105.0,
+      "overlimit": 185.0,
+      "remote_area": 13.0
+    }
+  }
+}
